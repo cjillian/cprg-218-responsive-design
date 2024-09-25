@@ -2,5 +2,12 @@
   box-sizing: border-box;
 }
 body{
-    background-color: blue;
+    background-color: navy;
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    body{
+        background-color: darkred;
+    }
 }
