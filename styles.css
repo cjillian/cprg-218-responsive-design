@@ -5,10 +5,18 @@ body{
     background-color: navy;
     color: white;
 }
+img{
+    float: right;
+    max-width: 760px;
+}
 
 @media screen and (max-width:480px) {
     body{
         background-color: darkred;
+    }
+    img{
+        float: none;
+        max-width: 100%;
     }
 }
 
